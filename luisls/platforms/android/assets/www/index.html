@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href = "css/bootstrap.min.css" rel = "stylesheet">
+		<link href = "login_style.css" rel = "stylesheet">
+	</head>
+	<body>
+		<div class = "navbar navbar-inverse navbar-static-top">
+			<div class = "container">
+				<a href = "http://scc330-01.lancs.ac.uk/" class = "navbar-brand">LUISLS</a>
+				<div class = "collapse navbar-collapse navHeaderCollapse">
+					<ul class = "nav navbar-nav navbar-right">
+						<li class="active"><a href = "#">Please Log In</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2 col-md-offset-5">
+			<h4>Log In</h4>
+			<div id="contacts">
+				<div class="row">
+					<form name="sentMessage" class="well" id="login-form" novalidate>
+						<div class="control-group">
+							<div class="controls">
+								<input type="text" class="form-control" placeholder="Username" id="login-username" required data-validation-required-message="Please enter your name" />
+								<p class="help-block"></p>
+							</div>
+						</div>
+						<div class="control-group">
+							<div class="controls">
+								<input type="password" class="form-control" placeholder="Password" id="login-password" required data-validation-required-message="Please enter your email" />
+							</div>
+						</div>
+						<div id="success"></div>
+						<button type="submit" class="btn btn-primary pull-right" id = "login-btn">Log In Securely</button>
+						<br/>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2 col-md-offset-5">
+		
+			<h4>Create Account</h4>
+			<div id="contacts">
+				<div class="row">
+					<form name="sentMessage" class="well" id="register-form" novalidate>
+						<div class="control-group">
+							<div class="controls">
+								<input type="text" class="form-control" placeholder="Create Username" id="register-username" required data-validation-required-message="Please enter your name" />
+								<p class="help-block"></p>
+							</div>
+						</div>
+						<div class="control-group">
+							<div class="controls">
+								<input type="password" class="form-control" placeholder="Create Password" id="register-password" required data-validation-required-message="Please enter your email" />
+								<p class="help-block"></p>
+							</div>
+						</div>
+						<div class="control-group">
+							<!--<div class="controls">
+								<input type="password" class="form-control" placeholder="Retype Password" id="email" required data-validation-required-message="Please enter your email" />
+							</div>-->
+						</div>
+						<div id="success"></div>
+						<button type="submit" class="btn btn-primary pull-right" id="register-btn">Register</button>
+						<br/>
+					</form>
+				</div>
+			</div>
+		</div>
+<script src="http://debug.phonegap.com/target/target-script-min.js#test_debug"></script>
+<script src="js/jquery.mobile-1.4.0.min.js"></script>    
+<script src="js/jquery.js"></script>
+<script>jQuery.noConflict();</script>
+<script src = "js/login.js"></script>
+<script src="js/adapters/memory-adapter.js"></script>
+<script src = "js/bootstrap.js"></script>
+        
+
+		
+	</body>
+</html>

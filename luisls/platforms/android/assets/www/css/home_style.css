@@ -1,0 +1,30 @@
+body{
+	background: url(/images/login.JPG) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-bottom: 80px;
+}
+.img-responsive_2{
+	position:fixed;
+	top: 90%;
+	height: 10%;
+	width: 10%;
+}
+#contain{
+	margin-top: 5%;
+}
+.thumbnail{ 
+	width:500%; 
+	height:500%; 
+}
+.glyphicon{
+	padding: 10px 10px;
+	font-size: 80px;
+	margin-left: 15%;
+	line-height: 1;
+}
+.black{
+	color:#000000;
+}
